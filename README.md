@@ -5,12 +5,13 @@ For now, "simple_seqanalyzer.sh" is the demo and does analyze on only 1 file wit
 In the future, this program will be more developed with additional loops or condition commands used on more than 1 file.
 
 ## Features
-- Parses multi-sequence FASTA files, seperates different headers from sequences then analyzes remained sequence as a whole.
+- Parses multi-sequence FASTA files, separates different headers from sequences then analyzes remained sequence as a whole.
 - Calculates total lines that sequences are present
 - Calculates total base amount and GC content (as a percentage)
 
 ## Usage
-Place the FASTA file called "sequences.fasta" (which is present in the repository) in the same directory and execute:
+Place the FASTA file called "sequences.fasta" (which is present in the repository) in the same directory
+or rename your file to "sequences.fasta" then place it in same directory and execute:
 
 bash simple_seqanalyzer.sh 
 or
